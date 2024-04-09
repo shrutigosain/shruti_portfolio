@@ -181,7 +181,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.navbar-toggle */
 
 
-
 /*-------------------------------------
         3.  Welcome-hero
 --------------------------------------*/
@@ -190,12 +189,70 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/s7.jpeg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
 }
 .welcome-hero:before{
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;
+    background:rgba(31,44,108,.65);
+    width:100%;
+    height:100%;
+}
+
+/*.header-text-area*/
+.header-text h2 {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.header-text h2 span {color: #d92cf9;}
+.header-text p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 30px 0 60px;
+    letter-spacing: 1px;
+}
+.header-text a {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    color: #fff;
+    background: #b636ff;
+    border:1px solid #b636ff;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    -webkit-transition: 0.3s linear; 
+    -moz-transition: 0.3s linear; 
+    -ms-transition: 0.3s linear; 
+    -o-transition: 0.3s linear; 
+    transition: 0.3s linear;
+}
+.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+/*.header-text-area*/
+/*-------------------------------------
+        3.  Welcome-her /sketch
+--------------------------------------*/
+.welcome-her{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    background:url(../images/sketches/main.jpg)no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:890px;
+}
+.welcome-her:before{
     position:absolute;
     content: " ";
     top:0;
@@ -342,7 +399,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
-.single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
+.single-horizontal-timeline p {color: #999fb3;max-width: 500px;}
 
 /*.timeline-horizontal-border*/
 .timeline-horizontal-border {
@@ -359,7 +416,7 @@ span.single-timeline-horizontal {
     display:  inline-block;
     background: #b2c1ce;
     height:  1px;
-    width: 380px;
+    width: 800px;
 }
 span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.timeline-horizontal-border*/
@@ -490,6 +547,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
+    
 }
 .timeline-content h5 {
     color: #636a82;
@@ -516,6 +574,91 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .experience-time-responsive{display: none;}
+
+
+/*-------------------------------------
+        Leadership
+--------------------------------------*/
+.lead {padding: 50px 0 100px;}
+.lead-content {padding-top: 100px;}
+/*.single-about-txt*/
+.single-lead-txt h3 {
+    font-size:18px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 1.8;
+}
+.single-lead-txt p {
+    font-size: 16px;
+    color: #999fb3;
+    padding: 35px 0 43px;
+    border-bottom: 1px solid #999fb3;
+}
+.single-lead-add-info {
+    margin: 35px 0;
+}
+.single-lead-add-info h3 {
+    color: #636a82;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.single-lead-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
+/*.single-about-txt*/
+
+/*.single-about-img */
+.single-lead-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-lead-img:before {
+    position:  absolute;
+    content: " ";
+    top: 0;
+    left:  0;
+    width: 109%;
+    height:  100%;
+    background: rgba(31,44,108,.3);
+}
+.single-lead-img img {
+    max-width: 500px;
+    height: 468px;
+}
+.lead-list-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 109%;
+    height: 90px;
+    background: #1f2c6c;
+}
+/*.ab-list-icon */
+.lead-list-icon ul {
+    display: flex;
+}
+.lead-list-icon  ul li a {
+    padding-right: 22px;
+    cursor:pointer;
+    color: #fff;
+}
+.lead-list-icon ul li a {
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    border: 2px solid;
+    margin-left: 20px;
+    border-radius: 8px;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+}
+.lead-list-icon ul li a i {
+    margin-left: 6px;
+}
+/*.ab-list-icon */
+
+/*.single-about-img */
+
 /*-------------------------------------
         8. Profiles
 --------------------------------------*/

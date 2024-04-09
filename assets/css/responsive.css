@@ -14,6 +14,14 @@
 	.timeline-content span>i, .experience-time span>i {left: -15.5%;}
 }/*max-width:1199px*/
 
+@media screen and (max-width:1199px){
+	nav.navbar.bootsnav ul.nav > li > a { padding: 35px 8px;}
+	
+	.welcome-her {height: 768px;}
+
+	.timeline-content span>i, .experience-time span>i {left: -15.5%;}
+}/*max-width:1199px*/
+
 @media screen and (max-width:1024px){
 
 
